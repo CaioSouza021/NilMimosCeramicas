@@ -3,9 +3,5 @@ import { Link } from "react-router-dom";
 import S from "./home.module.scss";
 
 export default function Home() {
-  return (
-    <h1>
-      <p>Home</p>
-    </h1>
-  );
+  return <h1>Home</h1>;
 }
