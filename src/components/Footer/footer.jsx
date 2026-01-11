@@ -40,7 +40,7 @@ export default function Footer() {
 
       {/* Direitos Autorais */}
       <section className={S.BoxDireitos}>
-        <p>NilMimos Cerâmicas © Todos os direitos reservados</p>
+        <p>NilMimos Cerâmica © Todos os direitos reservados</p>
       </section>
     </footer>
   );
