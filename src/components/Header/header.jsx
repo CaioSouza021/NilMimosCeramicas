@@ -24,15 +24,6 @@ export default function Header() {
           <Link className={S.textLink}> Produto</Link>
           <Link className={S.textLink}> Sobre</Link>
         </nav>
-        {/* Botão para trocar modo Claro/Escuro */}
-        <div className={S.darkToggle}>
-          <button
-            onClick={() => setDarkMode(!darkMode)}
-            aria-label="Alternar tema"
-          >
-            {darkMode ? "☀" : "☾"}
-          </button>
-        </div>
       </section>
     </header>
   );
