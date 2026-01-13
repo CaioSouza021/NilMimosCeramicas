@@ -61,6 +61,41 @@ export default function Home() {
           <p>Único ateliê em Campo Grande</p>
         </div>
       </section>
+
+      {/* Prévia das peças  */}
+
+      {/* peça 1 */}
+      <section className={S.ContainerPrevia}>
+        <div className={S.TextoPeças}>
+          <h2>Peças e produtos</h2>
+        </div>
+        <section className={S.BoxPrevia}>
+          <figure>
+            <img src={Hero} alt="" />
+          </figure>
+          <div>
+            <h3>Nome da peça</h3>
+          </div>
+        </section>
+        {/* Peça 2 */}
+        <section className={S.BoxPrevia}>
+          <figure>
+            <img src={Hero} alt="" />
+          </figure>
+          <div>
+            <h3>Nome da peça</h3>
+          </div>
+        </section>
+        {/* Peça 3 */}
+        <section className={S.BoxPrevia}>
+          <figure>
+            <img src={Hero} alt="" />
+          </figure>
+          <div>
+            <h3>Nome da peça</h3>
+          </div>
+        </section>
+      </section>
     </main>
   );
 }
