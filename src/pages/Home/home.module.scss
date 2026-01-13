@@ -1,8 +1,10 @@
+// Espaço da Hero na main
 .ContainerHeroHome {
   height: 100%;
   width: 100%;
 }
 
+// tamanho da imagem
 main .HeroHome {
   width: 100%;
   height: 50vh;
@@ -13,12 +15,15 @@ main .HeroHome {
   background-size: cover;
 }
 
+// sombra da foto
 main .HeroHome .BoxHeroHome {
   background-color: rgba(0, 0, 0, 0.438);
 
   width: 100%;
   height: 100%;
 }
+
+// Texto da Hero
 main .HeroHome .BoxHeroHome h1 {
   width: 70%;
   height: 100%;
@@ -34,9 +39,9 @@ main .HeroHome .BoxHeroHome h1 {
   font-size: 2.8rem;
   color: #f6f5f1;
 }
-
 // fim da hero
 
+// Tamanho do espaço do texto
 main .ContainerTextHome {
   height: 40vh;
   width: 100%;
@@ -48,6 +53,7 @@ main .ContainerTextHome {
   background-color: #ffffff;
 }
 
+// texto
 main .ContainerTextHome h1 {
   width: 85%;
 
@@ -57,7 +63,6 @@ main .ContainerTextHome h1 {
 }
 
 // Inicio Card Home Normal
-
 main .CardInicioHome {
   height: 30vh;
   width: 50vw;
@@ -72,11 +77,13 @@ main .CardInicioHome {
   border-radius: 12px;
 }
 
+// Espaço da Imagem
 main .CardInicioHome .ContainerImgCard {
   height: 100%;
   width: 40%;
 }
 
+// tamanho da imagem
 main .CardInicioHome .ContainerImgCard img {
   width: 100%;
   height: 100%;
@@ -87,11 +94,13 @@ main .CardInicioHome .ContainerImgCard img {
   z-index: -2;
 }
 
+// tamanho do espaçamento do texto
 main .CardInicioHome .ContainerTextcard {
   height: 100%;
   width: 60%;
 }
 
+// texto
 main .CardInicioHome .ContainerTextcard h2 {
   height: 30%;
   width: 100%;
@@ -106,6 +115,7 @@ main .CardInicioHome .ContainerTextcard h2 {
   border-bottom: solid 1px#d8d2c8;
 }
 
+// texto
 main .CardInicioHome .ContainerTextcard p {
   height: 70%;
   width: 100%;
@@ -119,7 +129,6 @@ main .CardInicioHome .ContainerTextcard p {
 }
 
 // Inicio card invertido da HOME no inicio
-
 main .CardInversoHome {
   height: 30vh;
   width: 50vw;
@@ -132,12 +141,12 @@ main .CardInversoHome {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
   border-radius: 12px;
 }
-
+// tamanho do espaçamento do texto
 main .CardInversoHome .ContainerinversoTextcard {
   height: 100%;
   width: 60%;
 }
-
+// texto
 main .CardInversoHome .ContainerinversoTextcard h2 {
   height: 30%;
   width: 100%;
@@ -151,6 +160,7 @@ main .CardInversoHome .ContainerinversoTextcard h2 {
   font-weight: 700;
   border-bottom: solid 1px#d8d2c8;
 }
+// texto
 main .CardInversoHome .ContainerinversoTextcard p {
   height: 70%;
   width: 100%;
@@ -163,10 +173,13 @@ main .CardInversoHome .ContainerinversoTextcard p {
   justify-content: center;
 }
 
+// Espaço da Imagem
 main .ContainerInvertidoImgCard {
   height: 100%;
   width: 40%;
 }
+
+// tamanho da imagem
 main .ContainerInvertidoImgCard img {
   width: 100%;
   height: 100%;
